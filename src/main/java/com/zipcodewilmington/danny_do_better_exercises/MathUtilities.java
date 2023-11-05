@@ -11,8 +11,6 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
 
-
-
     public Integer add(int baseValue, int difference) {
         int sum = baseValue + difference;
         return sum;
@@ -82,7 +80,9 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Integer subtract(int baseValue, int difference) {
-        return null;
+        int sum =  (baseValue - difference);
+
+        return  sum;
     }
 
     /**
@@ -135,7 +135,9 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Double subtract(double baseValue, double difference) {
-        return null;
+        double sum = (double) (baseValue - difference);
+
+        return  sum;
     }
 
 
@@ -145,7 +147,9 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Integer divide(int dividend, int divisor) {
-        return null;
+        int sum = (dividend / divisor);
+
+        return sum;
     }
 
     /**
@@ -154,7 +158,9 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Long divide(long dividend, long divisor) {
-        return null;
+       long sum = (long) (dividend / divisor);
+
+        return  sum;
     }
 
     /**
@@ -163,7 +169,9 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Short divide(short dividend, short divisor) {
-        return null;
+        short sum = (short) (dividend / divisor);
+
+        return  sum;
     }
 
     /**
@@ -172,7 +180,9 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Byte divide(byte dividend, byte divisor) {
-        return null;
+        byte sum = (byte) (dividend / divisor);
+
+        return  sum;
     }
 
     /**
@@ -181,7 +191,9 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Float divide(float dividend, float divisor) {
-        return null;
+        float sum = (float) (dividend / divisor);
+
+        return  sum;
     }
 
     /**
