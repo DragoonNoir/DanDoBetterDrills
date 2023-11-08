@@ -8,7 +8,8 @@ public class StringUtilities {
      * @return `Hello World` as a string
      */
     public static String getHelloWorld() {
-        return;
+
+        return null;
     }
 
     /**
@@ -17,7 +18,10 @@ public class StringUtilities {
      * @return the concatenation of two strings, `firstSegment`, and `secondSegment`
      */
     public static String concatenation(String firstSegment, String secondSegment){
-        return null;
+        String sp1 = firstSegment;
+        String sp2 = secondSegment;
+
+        return sp1 + sp2;
     }
 
     /**
@@ -26,7 +30,11 @@ public class StringUtilities {
      * @return the concatenation of an integer, `firstSegment`, and a String, `secondSegment`
      */
     public static String concatenation(int firstSegment, String secondSegment){
-        return null;
+
+        int myNum = firstSegment;
+        String sp1 = secondSegment;
+
+        return myNum + sp1;
     }
 
     /**
