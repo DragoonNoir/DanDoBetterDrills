@@ -8,8 +8,8 @@ public class StringUtilities {
      * @return `Hello World` as a string
      */
     public static String getHelloWorld() {
-
-        return null;
+        String ps1 = "Hello World";
+        return ps1;
     }
 
     /**
@@ -42,7 +42,13 @@ public class StringUtilities {
      * @return the first 3 characters of `input`
      */
     public static String getPrefix(String input){
-        return null;
+        String ps1 = input;
+        char first = ps1.charAt(0);
+        char second = ps1.charAt(1);
+        char third = ps1.charAt(2);
+        String ps2 =  "" +first + second + third;
+        System.out.println(ps2);
+        return ps2;
     }
 
     /**
@@ -50,7 +56,15 @@ public class StringUtilities {
      * @return the last 3 characters of `input`
      */
     public static String getSuffix(String input){
-        return null;
+        String ps1 = input;
+
+
+        char first = ps1.charAt(ps1.length()-1);
+        char second = ps1.charAt(ps1.length()-2);
+        char third = ps1.charAt(ps1.length()-3);
+        String ps2 =  "" + third + second + first;
+        System.out.println(ps2);
+        return ps2;
     }
 
     /**
